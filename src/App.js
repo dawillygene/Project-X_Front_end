@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from "./components/main/Header";
+import Footer from "./components/main/Footer";
 // import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
     {/* </div> */}
     </>
