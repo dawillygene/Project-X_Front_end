@@ -35,11 +35,11 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="https://via.placeholder.com/40"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXiyanH3C-cXQGBTnL3ZUzSSpb3eaCQR_Yw&s"
             alt="Logo"
             className="w-10 h-10 mr-2"
           />
-          <h1 className="text-2xl font-bold text-indigo-600">{headerText.logo}</h1>
+          <h1 className="text-2xl font-bold text-neutral-600">{headerText.logo}</h1>
         </div>
 
         {/* Search Bar */}
