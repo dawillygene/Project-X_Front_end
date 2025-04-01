@@ -3,7 +3,7 @@ export default {
       'Legal Notice',
       'Terms & Conditions',
       'Data protection',
-      'Shipping information'
+      'Webesite information'
     ],
     columns: {
       eShop: {
