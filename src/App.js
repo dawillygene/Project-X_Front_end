@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from "./components/main/Header";
 import Footer from "./components/main/Footer";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Ajira from './pages/Ajira';
 
-function Home() {
-  return <div>Home Page</div>;
-}
+//function Home() {
+//  return <div>Home Page</div>;
+//}
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/ajira" element={<Ajira />} />
       </Routes>
       <Footer />
     </BrowserRouter>
