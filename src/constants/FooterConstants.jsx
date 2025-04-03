@@ -7,7 +7,7 @@ export default {
     ],
     columns: {
       eShop: {
-        title: 'RESERVED E-SHOP',
+        title: 'RESERVED ',
         subtitle: 'Help and Contact',
         links: [
           'Delivery',
